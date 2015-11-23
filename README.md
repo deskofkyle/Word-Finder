@@ -1,5 +1,5 @@
 # Project Summary 
-In this project, we implemented a word solver program. The program takes a text file with a table of n by n characters with words hidden in the table. Given a dictionary of words, the program loops through every possible direction and cell in the table to determine whether the iteration of characters is a word. The program uses a hash table that uses a standard hash function to take each word in the dictionary and store it. The run time of a hash table is as follows: Search: O(1), Delete: O(1), Insert: O(1), Space: O(n). A hash table is useful for storing information with a known size.
+In this project, I implemented a word solver program. The program takes a text file with a table of n by n characters with words hidden in the table. Given a dictionary of words, the program loops through every possible direction and cell in the table to determine whether the iteration of characters is a word. The program uses a hash table that uses a standard hash function to take each word in the dictionary and store it. The run time of a hash table is as follows: Search: O(1), Delete: O(1), Insert: O(1), Space: O(n). A hash table is useful for storing information with a known size.
 
 #Algorithm Summary
 1. Iterate through each cell in the table.
